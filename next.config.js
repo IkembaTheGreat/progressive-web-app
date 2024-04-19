@@ -5,4 +5,8 @@ const withPWA = require("next-pwa")({
 
 module.exports = withPWA({
   // config
+  api: {
+    bodyParser: false, // Optional: Set bodyParser options
+    baseUrl: '/api', // Specify the base URL for API routes
+  },
 });
