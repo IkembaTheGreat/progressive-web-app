@@ -1,9 +1,10 @@
- import styles from '../../styles/Home.module.css'
+import '../../styles/Home.css'
+import '../../globals.css'
  export default function Home() {
    return (
-     <div className='bg-orange-700'>
+     <div className=''>
        <main className='main'>
-         <h1 className='title'>
+         <h1 className='title text-3xl text-red-50'>
            Welcome to <a href="https://nextjs.org">Next.js!</a>
          </h1>
 
